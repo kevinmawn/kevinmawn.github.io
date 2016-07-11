@@ -4,9 +4,9 @@
 
 
 .title_line {
-      padding-left:200px;
+      padding-left:200px;background-color:#292929;color:#bebebe;
 }
 
 .col2 {
-      width:50%; text-align:center;
+      width:50%; padding-left:50px; background-color:#3d3d3d;color:#bebebe;
 }
