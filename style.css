@@ -1,11 +1,10 @@
-body { margin:0;padding:0;
+body { margin-top:0; padding:0; max-width:1300px; margin-right:auto; margin-left:auto;
 }
+
 
 header{ 
 	background-color:#1A1A1A; 
 }
-
-
 
 /* title and navigation bar styling */
 
@@ -38,32 +37,35 @@ li a:hover {
 
 /* body element styling with bootstrap */
 
-.bigcolor {
-	background-color:F4F4F4;
-	}
-
 p#bio {
-	height:auto; background-color:#778899; padding:40px;
-}
-
-.bluebox {
-	 
+	height:440px; background-color:#778899; padding:35px;
 }
 
 p#bluetext {
-	padding:60px 30px 60px 30px; background-color:#D6D6D6; height:200px;
-}
-
-.redbox {
-	 
+	background-color:#E0FFFF; height:200px; padding:60px 30px 60px 30px; 
 }
 
 p#redtext {
-	padding:60px 30px 60px 30px; background-color:#ff3030; height:200px; color:white;
+	padding:60px 30px 50px 30px; background-color:#E1EEE1; height:200px;
 }
 
 #spanbold {
 	font-weight:bold;
 }
-.bikestyle { text-align:center; width:100%;
+
+ p#linkbox {
+	background-color:#EEF3E2; height:200px; position:relative;
 }
+
+ img#in {
+		width:100px; Height:80px; position: absolute;
+		top:50%; left:50%; margin-right: -50%; transform:translate(-50%,-50%)
+ }
+ p#nbox { 
+ background-color:#ECF1EF; height:440px; position:relative;
+ }
+
+ img#nature {
+		max-width: 85%; height:90%; position: absolute;
+		top:50%; left:50%; margin-right: -50%; transform:translate(-50%,-50%)
+ }
