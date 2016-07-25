@@ -7,7 +7,7 @@
 }
 
 .col-4 { 
-	width:40%; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;
+	width:30%; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;
 }
 
 .col-4 h1 {
@@ -15,15 +15,15 @@ line-height:65px; font-family: 'Open Sans', sans-serif; padding-left:10px;
 }
 
 .col-8 {
-	width:59%; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;
+	width:70%; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;
 }
 
 .container-2 {
-	height:440px; display:flex; flex-wrap:wrap;
+	height:440px; display:flex; flex-wrap:wrap; justify-content:center;
 }
 
 .col-6 {
-	width:440px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
+	width:440px; margin:10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
 }
 
 .contact-box {
@@ -34,7 +34,17 @@ line-height:65px; font-family: 'Open Sans', sans-serif; padding-left:10px;
 	background-color:#E6E6FA;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:940px) {
+	.container-2 {
+	height:360px;
+	}
+	.col-6 {
+	width:360px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
+	}
+}
+
+
+@media screen and (max-width:860px) {
 	.container { 
 		height:150px;
 	}	
@@ -45,13 +55,22 @@ line-height:65px; font-family: 'Open Sans', sans-serif; padding-left:10px;
 		height:75px; width:100%;
 	}
 	.container-2 {
-	height:880px; border:1px solid black;
+	height:250px;
 	}
 	.col-6 {
-	width:440px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
+	width:250px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
 	}
 	.contact-box {
 	
+	}
+}
+
+@media screen and (max-width:600px) {
+	.container-2 {
+	height:230px;
+	}
+	.col-6 {
+	width:230px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
 	}
 }
 
@@ -66,7 +85,7 @@ line-height:65px; font-family: 'Open Sans', sans-serif; padding-left:10px;
 		height:75px;
 	}
 	.container-2 {
-	height:490px; border:1px solid black;
+	height:490px;
 	}
 	.col-6 {
 	width:245px; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; border-radius:50%;
